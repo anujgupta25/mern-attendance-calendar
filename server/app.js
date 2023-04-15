@@ -2,9 +2,10 @@ const express = require("express");
 const con = require("./connection");
 const Model = require("./model");
 const app = express();
+const cors = require("cors")
 
 app.use(express.json());
-
+app.use(cors())
 app.post("/create", async (req, res) => {
   const { date, status } = req.body;
   const body = new Model({
