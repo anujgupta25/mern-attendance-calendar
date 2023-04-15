@@ -1,0 +1,18 @@
+.present {
+  background: "lightgreen";
+  padding: "5px";
+  border: "1px solid #cecece";
+}
+
+.absent {
+  background: "crimson";
+  color: "#fff";
+  padding: "5px";
+  border: "1px solid #cecece";
+}
+
+.notavailable {
+  background: "yellow";
+  padding: "5px";
+  border: "1px solid #cecece";
+}
